@@ -24,4 +24,4 @@ How to test Application
 
 
 Note: I have deployed on my private AWS EC2 instance this application as well 
- URL : 
+ URL : http://13.59.71.110:8080/lcs
