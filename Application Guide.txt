@@ -1,0 +1,27 @@
+This document will describe Application's following features
+- Files Structure
+- How to run the Application
+- How to test the Application
+
+Files Struture :
+I have created this Application in Spring boot, so the Application will have embedded tomcat server. 
+folder name : comcasttest
+source code : \comcasttest\src\main
+test classes : \comcasttest\src\test
+Application JAR :  \comcasttest\target\comcasttest-0.0.1-SNAPSHOT.jar
+
+
+
+How to run Application
+->This application has tomcat embedded server,(make sure java is installed on the machine)
+      ->Open Command Line with comcasttest directory, and type the following command 
+          java -jar comcasttest-0.0.1-SNAPSHOT.jar
+
+How to test Application
+-> This is tomcast instance , so by default it takes 8080 port
+    url : http://localhost:8080/lcs
+ use any webservice client application for Example CURL, Rest Shell or PostMan
+
+
+Note: I have deployed on my private AWS EC2 instance this application as well 
+ URL : 
